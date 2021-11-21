@@ -23,16 +23,16 @@ class Sugar extends Cookie{
   void cutOut(String theCookieShape , int theCookieNum ){
     cookieShape = theCookieShape;
     setNum(theCookieNum);
-    System.out.println(theCookieNum + " cookies were cut into " + cookieShape);
+    System.out.println(theCookieNum + " cookies were cut into " + cookieShape +".");
   }
 
   void decorate(){
     boolean theStatus = isReady();
     if (theStatus == true) {
-      System.out.println("The cookies were decorated");
+      System.out.println("The cookies were decorated.");
     }
     else{
-     System.out.println( "Make sure to bake the cookies first"); 
+     System.out.println( "Make sure to bake the cookies first!"); 
     }
 
   }

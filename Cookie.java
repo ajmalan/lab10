@@ -31,7 +31,7 @@ class Cookie {
     bakeTemp = theBakeTemp;
     bakeTime = theBakeTime;
     cookieReady = true;
-    System.out.println(numCookies + " cookies were baked at " + bakeTemp + " degrees F for " + bakeTime + " minutes");
+    System.out.println(numCookies + " cookies were baked at " + bakeTemp + " degrees F for " + bakeTime + " minutes.");
   }
 
 }
